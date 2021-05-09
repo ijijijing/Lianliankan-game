@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\model">
+      <UniqueIdentifier>{91c39866-8d80-41f0-8bd2-29c9a6d497c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\controller">
+      <UniqueIdentifier>{5facde29-d2d2-4e74-a52b-a0fb142d7682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{52711bcd-d5e9-4215-995f-07a1521aaf3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\window">
+      <UniqueIdentifier>{067e1224-8baf-441e-b1f6-1e7b7f9d4baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\comctl">
+      <UniqueIdentifier>{6335dd66-dc91-45b3-bab7-06fcdc465c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\comctl\border">
+      <UniqueIdentifier>{45ff991a-fe2e-45c4-a500-24276d5b1079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\comctl\text">
+      <UniqueIdentifier>{b076987c-72fc-45e1-a884-fc06a3e2a4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\comctl\button">
+      <UniqueIdentifier>{10c9fcea-8779-4cd7-9058-974d1220d2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\comctl\baseshape">
+      <UniqueIdentifier>{586a81a0-e4fb-49fb-9fc7-63a7e56d0f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI\comctl\progressBar">
+      <UniqueIdentifier>{e3cd5ed2-2665-4c1a-93fb-fb98b6301c29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\LLKModel.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="LLKUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Paths.cpp">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\WindowUtil.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\window\GameUI.cpp">
+      <Filter>源文件\UI\window</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\window\MainUI.cpp">
+      <Filter>源文件\UI\window</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\window\SplashUI.cpp">
+      <Filter>源文件\UI\window</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\window\RankingUI.cpp">
+      <Filter>源文件\UI\window</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MouseUtil.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32CSUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\comctl\Line.cpp">
+      <Filter>源文件\UI\comctl\baseshape</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\comctl\border\Border.cpp">
+      <Filter>源文件\UI\comctl\border</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\comctl\button\Button.cpp">
+      <Filter>源文件\UI\comctl\button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\comctl\text\Text.cpp">
+      <Filter>源文件\UI\comctl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\GameController.cpp">
+      <Filter>源文件\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\GameInfoController.cpp">
+      <Filter>源文件\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\comctl\progressBar\ProgressBar.cpp">
+      <Filter>源文件\UI\comctl\progressBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="model\LLKModel.h">
+      <Filter>源文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\GirdBox.h">
+      <Filter>源文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="LLKUtil.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Array2D.h">
+      <Filter>源文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Paths.h">
+      <Filter>源文件\model</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\WindowUtil.h">
+      <Filter>源文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\window\GameUI.h">
+      <Filter>源文件\UI\window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\window\MainUI.h">
+      <Filter>源文件\UI\window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\window\SplashUI.h">
+      <Filter>源文件\UI\window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\window\RankingUI.h">
+      <Filter>源文件\UI\window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\WindowSummary.h">
+      <Filter>源文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MouseUtil.h">
+      <Filter>源文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32CSUtils.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\comctl\Line.h">
+      <Filter>源文件\UI\comctl\baseshape</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\comctl\border\Border.h">
+      <Filter>源文件\UI\comctl\border</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\comctl\button\Button.h">
+      <Filter>源文件\UI\comctl\button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\comctl\text\Text.h">
+      <Filter>源文件\UI\comctl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\GameController.h">
+      <Filter>源文件\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\GameInfoController.h">
+      <Filter>源文件\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\ControllerUtil.h">
+      <Filter>源文件\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\comctl\progressBar\ProgressBar.h">
+      <Filter>源文件\UI\comctl\progressBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
